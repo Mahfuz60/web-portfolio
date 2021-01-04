@@ -18,7 +18,7 @@ h3{
 p{
     color: dimgray;
 }
-.name_highlight{
+.tomato_highlight{
     color:tomato;
 }
 .half_width{
@@ -52,5 +52,38 @@ section{
 .dream_area{
     background-image:url(image/dream-bg.png);
     background-repeat:no-repeat;
+    background-position: right;
     
+    
+}
+.experience_area{
+    background-image: url(image/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    
+}
+.single-area{
+    box-shadow: 10px 15px 40px gray;
+    height: 400px;
+    width:40%;
+    border-radius:10px;
+    background-color: white;
+}
+
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+
+#font_end{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice:1;
+}
+
+footer p{
+    text-align:center;
+    font-size: 14px;
 }
